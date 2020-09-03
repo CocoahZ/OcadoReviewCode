@@ -53,3 +53,9 @@
  python topic_model.py --num_topics 5 --load_from xxx --mode eval
  ```
  The argument ```--num_topics``` should be same with trained model. ```--load_from``` indicates which model should be load, and all models will be saved in ```checkpoints/```
+
+ ### Credits
+
+ The model in this project is referenced repo as followed:
+
+ ETM: https://github.com/adjidieng/ETM
