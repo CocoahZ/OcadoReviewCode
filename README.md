@@ -2,14 +2,14 @@
  An analysis code for ocado reivews which contain a sentiment and topic model based on word embedding.
 
  ## Code structure
- * data/ : The folder used to save original ocado data excel files. And data for ETM model will be generated here
- * model/ : The folder used to save CNN, ETM, LDA model files.
- * preprocess/ : The scripts which is used to generate data as models' inputs.
- * results/ : The folder used to save csv, png results.
- * checkpoints/ : The folder used to save trained models' parameters.
- * sentiment_model_train.py : The python file used to train sentiment model.
- * sentiment.py : The python file used to do sentiment classification
- * topic_model.py : The python file used to train or generate topics
+ * ```data/``` : The folder used to save original ocado data excel files. And data for ETM model will be generated here
+ * ```model/``` : The folder used to save CNN, ETM, LDA model files.
+ * ```preprocess/``` : The scripts which is used to generate data as models' inputs.
+ * ```results/``` : The folder used to save csv, png results.
+ * ```checkpoints/``` : The folder used to save trained models' parameters.
+ * ```sentiment_model_train.py``` : The python file used to train sentiment model.
+ * ```sentiment.py``` : The python file used to do sentiment classification
+ * ```topic_model.py``` : The python file used to train or generate topics
 
  ## Guide
  
