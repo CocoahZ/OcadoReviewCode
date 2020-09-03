@@ -123,3 +123,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# user define 
+.data/
+.vector_cache/
+*/etm_*_*_*
+*/min_df_*
+*/*.pt
+*/*.xls
+*/*.xlsx
